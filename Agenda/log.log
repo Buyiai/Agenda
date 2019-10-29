@@ -1,0 +1,26 @@
+[Cmd]   2019/10/29 15:40:34 logout
+[Error] 2019/10/29 15:40:34 no user has been logined, login and try again
+[Cmd]   2019/10/29 15:43:12 register --username=lzz --password=123 --email=123@qq.com --phone=123
+[OK]    2019/10/29 15:43:12 register successfully
+[Cmd]   2019/10/29 15:43:36 register --username=lzz --password=123 --email=123@qq.com --phone=123
+[Error] 2019/10/29 15:43:36 username already exists
+[Cmd]   2019/10/29 15:44:02 login --username=lzz --password=123
+[OK]    2019/10/29 15:44:02 login successfully
+[Cmd]   2019/10/29 15:44:38 logout
+[OK]    2019/10/29 15:44:38 logout successfully
+[Cmd]   2019/10/29 16:02:17 register --username=lzz --password=123 --email=123@qq.com --phone=123
+[OK]    2019/10/29 16:02:17 register successfully
+[Cmd]   2019/10/29 16:02:37 login --username=lzz --password=123
+[OK]    2019/10/29 16:02:37 login successfully
+[Cmd]   2019/10/29 16:03:56 register --username=lzz --password=123 --email=123@qq.com --phone=123
+[OK]    2019/10/29 16:03:56 register successfully
+[Cmd]   2019/10/29 16:04:00 login --username=lzz --password=123
+[OK]    2019/10/29 16:04:00 login successfully
+[Cmd]   2019/10/29 16:04:06 logout
+[OK]    2019/10/29 16:04:06 logout successfully
+[Cmd]   2019/10/29 16:05:01 register --username=lz --password=12 --email=12@qq.com --phone=12
+[OK]    2019/10/29 16:05:01 register successfully
+[Cmd]   2019/10/29 16:05:12 login --username=lz --password=12
+[OK]    2019/10/29 16:05:12 login successfully
+[Cmd]   2019/10/29 16:05:16 logout
+[OK]    2019/10/29 16:05:16 logout successfully
