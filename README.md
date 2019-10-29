@@ -1,5 +1,5 @@
 # Agenda
-@[toc]
+
 # 1、概述
 命令行实用程序并不是都象 cat、more、grep 是简单命令。go 项目管理程序，类似 java 项目管理 maven、Nodejs 项目管理程序 npm、git 命令行客户端、 docker 与 kubernetes 容器管理工具等等都是采用了较复杂的命令行。即一个实用程序同时支持多个子命令，每个子命令有各自独立的参数，命令之间可能存在共享的代码或逻辑，同时随着产品的发展，这些命令可能发生功能变化、添加新命令等。因此，符合 OCP 原则 的设计是至关重要的编程需求。
 
@@ -213,6 +213,7 @@ go run main.go register -u lzz -p 123 -e 123@qq.com -c 123
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029165812121.png)
 
 注册成功后可以在 userList.txt 中看到用户的相关信息：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029165954883.png)
 
 用户登录：
@@ -222,6 +223,7 @@ go run main.go login -u lzz -p 123
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029165901326.png)
 
 登录成功后可以在 curUser.txt 中看到已登录用户的相关信息：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029170111273.png)
 
 用户登出：
@@ -231,5 +233,6 @@ go run main.go logout
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019102917014510.png)
 
 在 log.log 文件中可以看到命令的执行情况：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029170506593.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FpYW9femhhbmc=,size_16,color_FFFFFF,t_70)
-# [项目地址](https://github.com/Buyiai/Agenda)
+
